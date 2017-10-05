@@ -18,9 +18,9 @@ def pick_color():                                       #pick_color를 정의합
     random.shuffle(colors)                              #랜덤으로 색깔을 섞습니다
     return colors[0]                                    #나온색깔을 결과로 돌려줍니다
 
-for x in range(1,4):                                    #step3을 3번 반복합니다
+for x in range(1,4):                                    #step3를 3번 반복합니다
     
-    for x in range(1,4):                                #step2을 3번 반복합니다
+    for x in range(1,4):                                #step2를 3번 반복합니다
 
         for x in range(1,5):                            #step1. step1을 4번 반복합니다
             random_color = pick_color()                 #pick_color를 random_color에 저장합니다
